@@ -52,9 +52,3 @@ The command-line interface includes the following commands:
    ```
    python3 main.py -p composer--composer -b 1 -t test -v fixed -o /content/tmp/
    ```
-# bugsPHP
-# bugsPHP
-# bugsPHP
-# bugsPHP
-# bugsPHP
-# bugsPHP
