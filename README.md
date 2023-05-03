@@ -24,7 +24,7 @@ bugsPHP contains 513 bugs from the following open-source projects:
 | PHPOffice--PhpSpreadsheet         |                 12 |
 | symfony--symfony                  |                188 |
 ### Note
-Download the test repositories file [here](https://drive.google.com/file/d/1Y3BAH-kXcmYp9pGOSJ6AxkQu_3YhLyo1/view?usp=share_link), and put it with main.py file
+Download the test repositories file [here](https://drive.google.com/file/d/1c1CKv20uCVHfmd5FIxxeqHc0uWpm_jsB/view?usp=share_link), and put it with main.py file
 ## Commands
 
 The command-line interface includes the following commands:
