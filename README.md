@@ -6,20 +6,25 @@ The projects
 ---------------
 bugsPHP contains 513 bugs from the following open-source projects:
 
-| **Project name**                        | **Number of bugs** |
-|-----------------------------------------|--------------------|
-| laravel--framework                      |                106 |
-| composer--composer                      |                 18 |
-| symfony--symfony                        |                195 |
-| guzzle--guzzle                          |                  1 |
-| DesignPatternsPHP--DesignPatternsPHP    |                  1 |
-| Seldaek--monolog                        |                  7 |
-| PHPMailer--PHPMailer                    |                  2 |
-| briannesbitt--Carbon                    |                 20 |
-| nikic--PHP-Parser                       |                  3 |
-| w7corp--easywechat                      |                 11 |
+| **Project name**                  | **Number of bugs** |
+|-----------------------------------|--------------------|
+| cakephp--cakephp                  |                 33 |
+| briannesbitt--Carbon              |                 11 |
+| composer--composer                |                 18 |
+| doctrine--dbal                    |                  9 |
+| w7corp--easywechat                |                  9 |
+| laravel--framework                |                 94 |
+| googleapis--google-api-php-client |                  3 |
+| spatie--laravel-permission        |                  6 |
+| magento--magento2                 |                 23 |
+| Seldaek--monolog                  |                  7 |
+| doctrine--orm                     |                 15 |
+| PHP-CS-Fixer--PHP-CS-Fixer        |                 82 |
+| nikic--PHP-Parser                 |                  3 |
+| PHPOffice--PhpSpreadsheet         |                 12 |
+| symfony--symfony                  |                188 |
 ### Note
-Download the test repositories file [here](https://drive.google.com/file/d/1-3gJzSDDzmM8JCEKRXv2pLMAGbxbO5wz/view?usp=share_link), and put it with main.py file
+Download the test repositories file [here](https://drive.google.com/file/d/1Y3BAH-kXcmYp9pGOSJ6AxkQu_3YhLyo1/view?usp=share_link), and put it with main.py file
 ## Commands
 
 The command-line interface includes the following commands:
@@ -30,13 +35,11 @@ The command-line interface includes the following commands:
     * checkout: checks-out the source code
     * install: install the necessary packages
     * test: run all the test cases
-    * test-changed: run only updated test files ( or run only given test file)
+    * failing-test-only: run only failing test cases
 * -v: bug version
     * buggy: the original buggy code
     * fixed: bug fixed code with updated test cases
-    * bug_with_test: buggy code with updated test cases
 * -o: output path where the source code should be checkout
-* -f: test file path (not required)
 
 #### Example commands
 
@@ -51,4 +54,8 @@ The command-line interface includes the following commands:
 3. Run all the test cases
    ```
    python3 main.py -p composer--composer -b 1 -t test -v fixed -o /content/tmp/
+   ```
+4. Run failing test cases
+   ```
+   python3 main.py -p composer--composer -b 1 -t failing-test-only -v fixed -o /content/tmp/
    ```
