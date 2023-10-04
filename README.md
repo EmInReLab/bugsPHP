@@ -2,7 +2,7 @@
 
 This repository contains PHP bug collection
 
-The projects
+Test Dataset
 ---------------
 bugsPHP contains 513 bugs from the following open-source projects:
 
@@ -24,7 +24,7 @@ bugsPHP contains 513 bugs from the following open-source projects:
 | PHPOffice--PhpSpreadsheet         |                 12 |
 | symfony--symfony                  |                188 |
 ### Note
-Download the test repositories file [here](https://drive.google.com/file/d/1c1CKv20uCVHfmd5FIxxeqHc0uWpm_jsB/view?usp=share_link), and put it with main.py file
+Download the test repositories file [here](https://drive.google.com/file/d/1Y3BAH-kXcmYp9pGOSJ6AxkQu_3YhLyo1/view?usp=sharing), and put it with main.py file
 ## Commands
 
 The command-line interface includes the following commands:
@@ -59,3 +59,12 @@ The command-line interface includes the following commands:
    ```
    python3 main.py -p composer--composer -b 1 -t failing-test-only -v fixed -o /content/tmp/
    ```
+
+Training dataset
+---------------
+
+You can find the training dataset in [here](https://drive.google.com/drive/folders/175U3QoG69T8gSnoyOFA0IgK-Ye93kL_X?usp=sharing), It contains 5 zip files and json file with meta info.
+ * unzip the zip files. 
+ * use the following path formats to find bugs. (repo_owner, repo_name, and bug_no can find in the meta.json file)
+   * {repo_owner}--{repo_name}/{repo_name}/{bug_no}/buggy
+   * {repo_owner}--{repo_name}/{repo_name}/{bug_no}/fixed
