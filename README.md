@@ -2,6 +2,20 @@
 
 This repository contains PHP bug collection
 
+## Contributors:
+### Authors
+K.D. Pramod, W.T.N. De Silva, W.U.K. Thabrew, Ridwan Shariffdeen, Sandareka Wickramanayake
+
+### Principal Investigators
+* Ridwan Shariffdeen
+* Sandareka Wickramanayake
+
+### Developers
+* K.D. Pramod
+* W.T.N. De Silva
+* W.U.K. Thabrew
+
+
 Test Dataset
 ---------------
 bugsPHP contains 513 bugs from the following open-source projects:
@@ -68,3 +82,4 @@ You can find the training dataset in [here](https://drive.google.com/drive/folde
  * use the following path formats to find bugs. (repo_owner, repo_name, and bug_no can find in the meta.json file)
    * {repo_owner}--{repo_name}/{repo_name}/{bug_no}/buggy
    * {repo_owner}--{repo_name}/{repo_name}/{bug_no}/fixed
+  
