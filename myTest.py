@@ -17,7 +17,7 @@ def install(param_dict):
     proj_path = os.path.join(param_dict['output'], bug_info['repo_name'])
 
     sp.call(['php', '-r', 'copy("https://getcomposer.org/installer", "composer-setup.php");'], shell=False, cwd=proj_path)
-    sp.call(['php', '-r', "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"], shell=False, cwd=proj_path)
+    sp.call(['php', '-r', "if (hash_file('sha384', 'composer-setup.php') === file_get_contents('https://composer.github.io/installer.sig')) { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"], shell=False, cwd=proj_path)
     sp.call(["php", "composer-setup.php"], shell=False, cwd=proj_path)
     sp.call(['php', '-r', 'unlink("composer-setup.php");'], shell=False, cwd=proj_path)
     sp.call(['php', "composer.phar", 'config', '--no-plugins', 'allow-plugins', 'true'], shell=False, cwd=proj_path)
