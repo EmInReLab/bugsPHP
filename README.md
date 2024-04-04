@@ -37,8 +37,16 @@ bugsPHP contains 513 bugs from the following open-source projects:
 | nikic--PHP-Parser                 |                  3 |
 | PHPOffice--PhpSpreadsheet         |                 12 |
 | symfony--symfony                  |                188 |
-### Note
-Download the test repositories file [here](https://drive.google.com/file/d/1Y3BAH-kXcmYp9pGOSJ6AxkQu_3YhLyo1/view?usp=sharing), and put it with main.py file
+
+## Installation instructions
+
+1. Download the test repositories archive file [here](https://drive.google.com/file/d/1Y3BAH-kXcmYp9pGOSJ6AxkQu_3YhLyo1/view?usp=sharing), and put it next to the `main.py` script. Do not extract the archive; the script is designed to handle it automatically.
+2. Install required dependencies:
+   ```bash
+   sudo apt install p7zip-full php-all-dev
+   pip install --user pydash
+   ```
+
 ## Commands
 
 The command-line interface includes the following commands:
