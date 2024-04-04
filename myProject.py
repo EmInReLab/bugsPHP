@@ -66,5 +66,3 @@ def extract_repo(bug_info, folder):
 
     delete_cmd = "rm -r " + os.path.join(folder, 'test_repositories')
     sp.call(delete_cmd, shell=True, stdout=sp.DEVNULL, stderr=sp.STDOUT)
-
-    os.chdir(os.listdir("./")[0])
