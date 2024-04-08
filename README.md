@@ -1,19 +1,6 @@
-# bugsPHP
+# BugsPHP
 
-This repository contains PHP bug collection
-
-## Contributors:
-### Authors
-K.D. Pramod, W.T.N. De Silva, W.U.K. Thabrew, Ridwan Shariffdeen, Sandareka Wickramanayake
-
-### Principal Investigators
-* Ridwan Shariffdeen
-* Sandareka Wickramanayake
-
-### Developers
-* K.D. Pramod
-* W.T.N. De Silva
-* W.U.K. Thabrew
+This repository contains a collection of bugs on PHP applications curated by mining Github Repositories.
 
 
 Test Dataset
@@ -90,4 +77,45 @@ You can find the training dataset in [here](https://drive.google.com/drive/folde
  * use the following path formats to find bugs. (repo_owner, repo_name, and bug_no can find in the meta.json file)
    * {repo_owner}--{repo_name}/{repo_name}/{bug_no}/buggy
    * {repo_owner}--{repo_name}/{repo_name}/{bug_no}/fixed
+
+## Contributors:
+### Principal Investigators
+* Ridwan Shariffdeen
+* Sandareka Wickramanayake
+
+### Developers
+* K.D. Pramod
+* W.T.N. De Silva
+* W.U.K. Thabrew
+
   
+## Publication ##
+**BugsPHP: A dataset for Automated Program Repair in PHP** <br>
+K.D. Pramod, W.T.N. De Silva, W.U.K. Thabrew, Ridwan Salihin Shariffdeen, Sandareka Wickramanayake <br>
+21st International Conference on Mining Software Repositories, Lisbon, Portugal, 2024 <br>
+
+
+## Acknowledgements ##
+This work was partially supported by a Singapore Ministry of Education (MoE) Tier3 grant “Automated Program Repair”, MOE-MOET32021-0001.
+
+# License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+
+## Citation
+
+If you use Cerberus in your research work, we would highly appreciate it if you
+cited the [following paper](https://rshariffdeen.com/paper/MSR24.pdf):
+
+```
+@inproceedings{cerberus,
+author = {K.D. Pramod, W.T.N. De Silva, W.U.K. Thabrew, Ridwan Shariffdeen, Sandareka Wickramanayake},
+title = {BugsPHP: A dataset for Automated Program Repair in PHP},
+year = {2024},
+booktitle={Proceedings of the 21st International Conference on Mining Software Repositories},
+location = {Lisbon, Portugal},
+series = {MSR '24},
+doi={10.1145/3643991.3644884}
+}
+```
+
