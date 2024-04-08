@@ -108,7 +108,7 @@ If you use Cerberus in your research work, we would highly appreciate it if you
 cited the [following paper](https://rshariffdeen.com/paper/MSR24.pdf):
 
 ```
-@inproceedings{cerberus,
+@inproceedings{bugsphp,
 author = {K.D. Pramod, W.T.N. De Silva, W.U.K. Thabrew, Ridwan Shariffdeen, Sandareka Wickramanayake},
 title = {BugsPHP: A dataset for Automated Program Repair in PHP},
 year = {2024},
