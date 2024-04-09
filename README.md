@@ -104,7 +104,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Citation
 
-If you use Cerberus in your research work, we would highly appreciate it if you
+If you use BugsPHP in your research work, we would highly appreciate it if you
 cited the [following paper](https://rshariffdeen.com/paper/MSR24.pdf):
 
 ```
