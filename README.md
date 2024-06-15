@@ -30,7 +30,7 @@ bugsPHP contains 513 bugs from the following open-source projects:
 1. Download the test repositories archive file [here](https://drive.google.com/file/d/1Y3BAH-kXcmYp9pGOSJ6AxkQu_3YhLyo1/view?usp=sharing), and put it next to the `main.py` script. Do not extract the archive; the script is designed to handle it automatically.
 2. Install required dependencies:
    ```bash
-   sudo apt install p7zip-full php-all-dev
+   sudo apt install p7zip-full php-all-dev php-mysql php-sqlite3
    pip install --user pydash
    ```
 
